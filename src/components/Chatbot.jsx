@@ -53,71 +53,69 @@ export default function Chatbot() {
     }
 
     return (
-        <section className="chat-shell">
-            <div className="chat-card">
-                <header className="chat-header">
-                    <h1>Kaffbot</h1>
-                    <p>
-                        Ask questions about the café and its inventory!
-                    </p>
-                </header>
+        <div className="uk-margin-medium-top">
+            <header>
+                <h1>Kaffbot</h1>
+                <h3 className="uk-margin-remove-top">
+                    Ask questions about the café and its inventory!
+                </h3>
+            </header>
 
-                <p className="chat-guidance">
-                    Ask about general coffee-related topics.
-                    Do not enter private, sensitive, or personal information.
-                </p>
+            <p>
+                Ask about general coffee-related topics.
+                Do not enter private, sensitive, or personal information.
+            </p>
 
-                <div className="chat-input-area">
-                    <label htmlFor="chat-prompt" className="sr-only">
-                        Ask the Kaffbot
-                    </label>
-                    <textarea
-                        id="chat-prompt"
-                        rows="5"
-                        className="chat-textarea"
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        placeholder="Ask about delicious coffee..."
-                    />
-                </div>
-
-                {/* Configure buttons */}
-                <div className="chat-actions">
-                    <button className="chat-button" onClick={handleAsk} disabled={!input.trim()}>Send</button>
-                    <button className="chat-button chat-button-secondary" onClick={clearChat} disabled={messages.length === 0}>Clear thread</button>
-                </div>
-
-                <div className="message-list" aria-label="Conversation thread">
-                    {/* Render user and assistant messages here. */}
-                    {messages.map((msg, i) => (
-                        <article key={i} className={`message message-${msg.role}`}>
-                            <div className="message-label">
-                                {msg.role === "user" ? "You" : "Assistant"}
-                            </div>
-                            <div className="markdown-body">
-                                <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                                    {msg.content}
-                                </ReactMarkdown>
-                            </div>
-                        </article>
-                    ))
-                    }
-
-                    {/* Render a temporary Assistant / Thinking... message while loading. */}
-                    {isLoading && (
-                        <article className="message message-assistant">
-                            <div className="message-label">Assistant</div>
-                            <p>Thinking...</p>
-                        </article>
-                    )}
-                </div>
-
-                <div>
-                    {error && (
-                        <p style={{color: "red"}}>Error: {error}</p>
-                    )}
-                </div>
+            <div className="uk-form-stacked">
+                <label htmlFor="chat-prompt" className="uk-form-label">
+                    Ask the Kaffbot
+                </label>
+                <input
+                    id="chat-prompt"
+                    type="text"
+                    className="uk-input uk-width-1-1 uk-width-1-2@l"
+                    value={input}
+                    onChange={(e) => setInput(e.target.value)}
+                    placeholder="Ask about delicious coffee..."
+                />
             </div>
-        </section>
+
+            {/* Configure buttons */}
+            <div className="uk-margin-small uk-margin-medium-bottom uk-grid uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-6@l uk-align-center">
+                <button className="uk-button uk-button-default" onClick={handleAsk} disabled={!input.trim()}>Send</button>
+                <button className="uk-button uk-button-default uk-margin-small-left" onClick={clearChat} disabled={messages.length === 0}>Clear thread</button>
+            </div>
+
+            <div className="">
+                {/* Render user and assistant messages here. */}
+                {messages.map((msg, i) => (
+                    <article key={i} className={"uk-card"}>
+                        <div className="uk-card-title">
+                            {msg.role === "user" ? "You" : "Assistant"}
+                        </div>
+                        <div className="uk-card-body uk-margin-remove-bottom uk-padding-remove-top uk-width-1-1 uk-width-1-2@l uk-align-center">
+                            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                {msg.content}
+                            </ReactMarkdown>
+                        </div>
+                    </article>
+                ))
+                }
+
+                {/* Render a temporary Assistant / Thinking... message while loading. */}
+                {isLoading && (
+                    <article className="uk-card">
+                        <div className="uk-card-title">Assistant</div>
+                        <p>Thinking...</p>
+                    </article>
+                )}
+            </div>
+
+            <div>
+                {error && (
+                    <p style={{ color: "red" }}>Error: {error}</p>
+                )}
+            </div>
+        </div>
     )
 }
