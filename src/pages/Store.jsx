@@ -6,17 +6,18 @@ import { InventoryContext } from "../contexts/InventoryContext"
 
 export default function Store() {
     const [search, setSearch] = useState("")
-    const [filter, setFilter] = useState("")
-    const { inventory, addItem } = useContext(InventoryContext)
+    const [locationFilter, setLocationFilter] = useState([])
+    const { inventory } = useContext(InventoryContext)
 
     const filteredItems = (inventory || []).filter((item) =>
-        item.name?.toLowerCase().includes(search.toLowerCase()) 
+        item.name?.toLowerCase().includes(search.toLowerCase()) &&
+        locationFilter.every(val => item.locations.includes(val))
     )
 
     return (
         <>
             <NavBar />
-            <ShopSearch setSearch={setSearch} setFilter={setFilter} />
+            <ShopSearch search={search} setSearch={setSearch} locationFilter={locationFilter} setLocationFilter={setLocationFilter} />
             <InventoryList inventory={filteredItems} />
         </>
     )
