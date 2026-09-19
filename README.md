@@ -1,16 +1,16 @@
-# React + Vite
+# Kaff Kafé
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mock website for a mock Star Wars themed café. 
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Clone the repo and run `npm install --force`. The force flag is necessary because of unresolveable dependency conflicts with linting tools. This is something I will work on in the future. Optionally, just remove the eslint package and associated plugins from `package.json` before installing.
 
-## React Compiler
+In a terminal, run `npm run dev` and `npm run server`. Either use two terminals, or a windowing tool like screen or tmux. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Notes
+I didn't flesh this out nearly as much as I would for a real website. I did the entire thing today (and a bit yesterday), in roughly 7-8 hours of work. 
+I'm not sure if GitHub will show that I used branches. I only used local ones and didn't push them to GitHub or do PRs. I didn't seen the need, since I'm working alone, and didn't realize it was specified in the rubrik until too late. 
+The store page is fully responsive for mobile. I didn't have time to do so for the other pages, and regardless, it's not part of the rubrik.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Please feel free to DM me on Discord or send a message over Canvas if you have any questions or comments beyond the usual grading comments. 
