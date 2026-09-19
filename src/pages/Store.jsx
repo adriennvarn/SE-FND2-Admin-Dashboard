@@ -22,8 +22,14 @@ export default function Store() {
     return (
         <>
             <NavBar />
-            <ShopSearch search={search} setSearch={setSearch} locationFilter={locationFilter} setLocationFilter={setLocationFilter} />
-            <InventoryList inventory={filteredItems} />
+            <div className="uk-flex uk-flex-column uk-flex-row@m uk-padding">
+                <div className="uk-width-1-1 uk-width-1-4@m">
+                    <ShopSearch search={search} setSearch={setSearch} locationFilter={locationFilter} setLocationFilter={setLocationFilter} />
+                </div>
+                <div className="uk-width-expand uk-width-1-1@m uk-margin-large-top uk-margin-remove-top@m">
+                    <InventoryList inventory={filteredItems} />
+                </div>
+            </div>
         </>
     )
 }

@@ -1,174 +1,194 @@
 {
-  "inventory": [
-    {
-      "id": "7086",
-      "name": "French Press",
-      "image": "",
-      "description": "Classic glass and stainless steel French press.",
-      "origin": "Ethiopia",
-      "price": 12.94,
-      "locations": [
-        "Virginia Beach",
-        "Hampton",
-        "Chesapeake"
-      ]
-    },
-    {
-      "id": "5499",
-      "name": "Pour Over Dropper",
-      "image": "",
-      "description": "Ceramic pour-over coffee dripper for precise extraction.",
-      "origin": "Ethiopia",
-      "price": 3.88,
-      "locations": [
-        "Hampton"
-      ]
-    },
-    {
-      "id": "4162",
-      "name": "Coffee Mug",
-      "image": "",
-      "description": "Ceramic mug designed to retain heat.",
-      "origin": "Colombia",
-      "price": 46.11,
-      "locations": [
-        "Chesapeake",
-        "Norfolk",
-        "Hampton"
-      ]
-    },
-    {
-      "id": "9017",
-      "name": "Travel Tumbler",
-      "image": "",
-      "description": "Insulated stainless steel travel mug.",
-      "origin": "Ethiopia",
-      "price": 61.21,
-      "locations": [
-        "Chesapeake",
-        "Norfolk"
-      ]
-    },
-    {
-      "id": "1979",
-      "name": "Milk Frother",
-      "image": "",
-      "description": "Handheld electric milk frother for lattes and cappuccinos.",
-      "origin": "Colombia",
-      "price": 39.96,
-      "locations": [
-        "Chesapeake",
-        "Hampton",
-        "Virginia Beach"
-      ]
-    },
-    {
-      "id": "2369",
-      "name": "Coffee Beans (Arabica)",
-      "image": "",
-      "description": "1lb bag of single-origin Arabica coffee beans.",
-      "origin": "Colombia",
-      "price": 97.66,
-      "locations": [
-        "Chesapeake",
-        "Norfolk",
-        "Hampton"
-      ]
-    },
-    {
-      "id": "7048",
-      "name": "Coffee Beans (Robusta)",
-      "image": "",
-      "description": "1lb bag of dark roast Robusta coffee beans.",
-      "origin": "Colombia",
-      "price": 81.98,
-      "locations": [
-        "Hampton"
-      ]
-    },
-    {
-      "id": "2203",
-      "name": "Cold Brew Maker",
-      "image": "",
-      "description": "Durable glass pitcher with a reusable mesh filter.",
-      "origin": "Vietnam",
-      "price": 2.93,
-      "locations": [
-        "Virginia Beach"
-      ]
-    },
-    {
-      "id": "3915",
-      "name": "Coffee Syrups Set",
-      "image": "",
-      "description": "Three-pack of vanilla, caramel, and hazelnut syrups.",
-      "origin": "Ethiopia",
-      "price": 86.76,
-      "locations": [
-        "Chesapeake"
-      ]
-    },
-    {
-      "id": "5403",
-      "name": "Reusable Filters",
-      "image": "",
-      "description": "Pack of cloth reusable coffee filters.",
-      "origin": "Guatemala",
-      "price": 70.24,
-      "locations": [
-        "Virginia Beach",
-        "Norfolk",
-        "Chesapeake"
-      ]
-    },
-    {
-      "id": "2629",
-      "name": "Gooseneck Kettle",
-      "image": "",
-      "description": "Electric gooseneck kettle with temperature control.",
-      "origin": "Colombia",
-      "price": 6.87,
-      "locations": [
-        "Norfolk",
-        "Virginia Beach",
-        "Chesapeake"
-      ]
-    },
-    {
-      "id": "3144",
-      "name": "Coffee Bean Spoon",
-      "image": "",
-      "description": "Stainless steel measuring scoop with a bag clip.",
-      "origin": "Costa Rica",
-      "price": 9.69,
-      "locations": [
-        "Chesapeake"
-      ]
-    },
-    {
-      "id": "2611",
-      "name": "Stirring Spoons",
-      "image": "",
-      "description": "Set of long-handled stainless steel stirring spoons.",
-      "origin": "Kenya",
-      "price": 2.71,
-      "locations": [
-        "Chesapeake",
-        "Hampton"
-      ]
-    },
-    {
-      "id": "5065",
-      "name": "Coffee Art Stencils",
-      "image": "",
-      "description": "Plastic stencils for latte art decorations.",
-      "origin": "Jamaica",
-      "price": 70.48,
-      "locations": [
-        "Chesapeake",
-        "Hampton"
-      ]
-    }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+    "inventory": [
+        {
+            "id": 4821,
+            "name": "Midnight Velvet Dark Roast",
+            "image": "src/assets/coffeebeans4.jpg",
+            "description": "Bold and smoky with deep notes of dark cocoa and molasses.",
+            "origin": "Sumatra",
+            "price": 14.99,
+            "locations": [
+                "Norfolk",
+                "Chesapeake"
+            ]
+        },
+        {
+            "id": 7109,
+            "name": "Highland Sunrise Light Roast",
+            "image": "src/assets/coffeebeans1.jpg",
+            "description": "Bright and crisp featuring vibrant citrus acidity and floral undertones.",
+            "origin": "Ethiopia",
+            "price": 18.50,
+            "locations": [
+                "Virginia Beach"
+            ]
+        },
+        {
+            "id": 1354,
+            "name": "Andean Amber Medium Roast",
+            "image": "src/assets/coffeebeans3.jpg",
+            "description": "Perfectly balanced with smooth caramel sweetness and a nutty finish.",
+            "origin": "Colombia",
+            "price": 16.25,
+            "locations": [
+                "Hampton",
+                "Norfolk",
+                "Virginia Beach"
+            ]
+        },
+        {
+            "id": 8943,
+            "name": "Volcanic Espresso Roast",
+            "image": "src/assets/coffeebeans5.jpg",
+            "description": "Intense and full-bodied, optimized for a rich crema and dark chocolate notes.",
+            "origin": "Guatemala",
+            "price": 22.00,
+            "locations": [
+                "Chesapeake",
+                "Hampton"
+            ]
+        },
+        {
+            "id": 3122,
+            "name": "Bourbon Santos Medium-Light",
+            "image": "src/assets/coffeebeans2.jpg",
+            "description": "Mild and smooth with a pleasant low acidity and subtle hints of almond.",
+            "origin": "Brazil",
+            "price": 13.45,
+            "locations": [
+                "Norfolk"
+            ]
+        },
+        {
+            "id": 6578,
+            "name": "Monsooned Malabar Dark",
+            "image": "src/assets/coffeebeans4.jpg",
+            "description": "Heavy-bodied and earthy with unique spicy profiles and a clean finish.",
+            "origin": "India",
+            "price": 19.95,
+            "locations": [
+                "Virginia Beach",
+                "Chesapeake"
+            ]
+        },
+        {
+            "id": 2410,
+            "name": "Antigua Gold Medium Roast",
+            "image": "src/assets/coffeebeans3.jpg",
+            "description": "Complex cup offering spicy, smoky aromas intertwined with sweet cocoa.",
+            "origin": "Guatemala",
+            "price": 17.80,
+            "locations": [
+                "Hampton"
+            ]
+        },
+        {
+            "id": 5591,
+            "name": "Blue Mountain Reserve",
+            "image": "src/assets/coffeebeans1.jpg",
+            "description": "Exquisite, refined sweetness with a silky mouthfeel and zero bitterness.",
+            "origin": "Jamaica",
+            "price": 89.50,
+            "locations": [
+                "Norfolk",
+                "Virginia Beach",
+                "Hampton"
+            ]
+        },
+        {
+            "id": 4329,
+            "name": "Kilimanjaro Peaberry Light",
+            "image": "src/assets/coffeebeans2.jpg",
+            "description": "Rare peaberry beans yielding a concentrated punch of blackcurrant and tea-like notes.",
+            "origin": "Tanzania",
+            "price": 24.15,
+            "locations": [
+                "Chesapeake"
+            ]
+        },
+        {
+            "id": 9044,
+            "name": "Java Estate Dark Roast",
+            "image": "src/assets/coffeebeans4.jpg",
+            "description": "Rustic, heavy, and deeply satisfying with a syrupy, herbaceous finish.",
+            "origin": "Indonesia",
+            "price": 15.30,
+            "locations": [
+                "Hampton",
+                "Norfolk"
+            ]
+        },
+        {
+            "id": 1182,
+            "name": "Tarrazú Honey Process Medium",
+            "image": "src/assets/coffeebeans3.jpg",
+            "description": "Creamy body with honey-like sweetness and a delicate stone fruit acidity.",
+            "origin": "Costa Rica",
+            "price": 18.90,
+            "locations": [
+                "Virginia Beach",
+                "Chesapeake"
+            ]
+        },
+        {
+            "id": 7763,
+            "name": "Yirgacheffe Blossom Light",
+            "image": "src/assets/coffeebeans1.jpg",
+            "description": "Aromatic and clean, bursting with notes of jasmine, lemon zest, and honey.",
+            "origin": "Ethiopia",
+            "price": 21.00,
+            "locations": [
+                "Norfolk",
+                "Hampton"
+            ]
+        },
+        {
+            "id": 3345,
+            "name": "Mayan Honey Dark Roast",
+            "image": "src/assets/coffeebeans5.jpg",
+            "description": "Deep French roast style bringing out rich caramelization and a toasted nut profile.",
+            "origin": "Honduras",
+            "price": 14.20,
+            "locations": [
+                "Chesapeake",
+                "Virginia Beach",
+                "Hampton"
+            ]
+        },
+        {
+            "id": 6128,
+            "name": "Sidamo Sunset Medium",
+            "image": "src/assets/coffeebeans3.jpg",
+            "description": "Rich berry notes balanced perfectly with a velvety, wine-like finish.",
+            "origin": "Ethiopia",
+            "price": 16.75,
+            "locations": [
+                "Norfolk"
+            ]
+        },
+        {
+            "id": 8294,
+            "name": "Sarchimor Estate Light Roast",
+            "image": "src/assets/coffeebeans2.jpg",
+            "description": "Crisp green apple brightness paired with a smooth brown sugar sweetness.",
+            "origin": "Nicaragua",
+            "price": 17.50,
+            "locations": [
+                "Virginia Beach"
+            ]
+        },
+        {
+            "id": 2049,
+            "name": "Kona Prime Dark Roast",
+            "image": "src/assets/coffeebeans5.jpg",
+            "description": "Luxuriously rich and buttery with hints of roasted macadamia and brown spice.",
+            "origin": "United States (Hawaii)",
+            "price": 75.00,
+            "locations": [
+                "Chesapeake",
+                "Norfolk"
+            ]
+        }
+    ],
+    "$schema": "src/node_modules/json-server/schema.json"
 }

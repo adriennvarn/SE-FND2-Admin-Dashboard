@@ -7,13 +7,15 @@ export const LOCATIONS = ["Norfolk", "Virginia Beach", "Chesapeake", "Hampton"]
 
 function App() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Landing />} />
-                <Route path="/store" element={<Store />} />
-                <Route path="/admin" element={<AdminDashboard />} />
-            </Routes>
-        </BrowserRouter>
+        <div className="">
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Landing />} />
+                    <Route path="/store" element={<Store />} />
+                    <Route path="/admin" element={<AdminDashboard />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
     )
 }
 

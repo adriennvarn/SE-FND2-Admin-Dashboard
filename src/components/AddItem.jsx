@@ -1,6 +1,7 @@
 import { useState, useContext, useRef } from "react"
 import { InventoryContext } from "../contexts/InventoryContext"
 import { LOCATIONS } from "../App"
+import "./AddItem.css"
 
 export default function AddItem() {
     const { addItem } = useContext(InventoryContext)

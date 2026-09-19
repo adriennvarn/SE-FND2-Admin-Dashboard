@@ -1,7 +1,7 @@
 import { createContext, useState, useEffect } from "react"
 import { useFetchData, useFetchDataMutation } from "../hooks/useFetchData"
 
-const API_URL = "http://localhost:3000/inventory"
+const API_URL = "http://192.168.4.69:3000/inventory"
 
 export const InventoryContext = createContext()
 
