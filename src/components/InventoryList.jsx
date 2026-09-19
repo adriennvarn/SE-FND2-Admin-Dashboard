@@ -10,6 +10,8 @@ export default function InventoryList({ inventory }) {
                         <div className="uk-card-body">
                             <h5 className="uk-card-title">{item.name}</h5>
                             <p>{item.description}</p>
+                            <p>Origin: {item.origin}</p>
+                            <p>${item.price}</p>
                         </div>
                     </div>
                 ))}
