@@ -1,0 +1,174 @@
+{
+  "inventory": [
+    {
+      "id": "7086",
+      "name": "French Press",
+      "image": "",
+      "description": "Classic glass and stainless steel French press.",
+      "origin": "Ethiopia",
+      "price": 12.94,
+      "locations": [
+        "Virginia Beach",
+        "Hampton",
+        "Chesapeake"
+      ]
+    },
+    {
+      "id": "5499",
+      "name": "Pour Over Dropper",
+      "image": "",
+      "description": "Ceramic pour-over coffee dripper for precise extraction.",
+      "origin": "Ethiopia",
+      "price": 3.88,
+      "locations": [
+        "Hampton"
+      ]
+    },
+    {
+      "id": "4162",
+      "name": "Coffee Mug",
+      "image": "",
+      "description": "Ceramic mug designed to retain heat.",
+      "origin": "Colombia",
+      "price": 46.11,
+      "locations": [
+        "Chesapeake",
+        "Norfolk",
+        "Hampton"
+      ]
+    },
+    {
+      "id": "9017",
+      "name": "Travel Tumbler",
+      "image": "",
+      "description": "Insulated stainless steel travel mug.",
+      "origin": "Ethiopia",
+      "price": 61.21,
+      "locations": [
+        "Chesapeake",
+        "Norfolk"
+      ]
+    },
+    {
+      "id": "1979",
+      "name": "Milk Frother",
+      "image": "",
+      "description": "Handheld electric milk frother for lattes and cappuccinos.",
+      "origin": "Colombia",
+      "price": 39.96,
+      "locations": [
+        "Chesapeake",
+        "Hampton",
+        "Virginia Beach"
+      ]
+    },
+    {
+      "id": "2369",
+      "name": "Coffee Beans (Arabica)",
+      "image": "",
+      "description": "1lb bag of single-origin Arabica coffee beans.",
+      "origin": "Colombia",
+      "price": 97.66,
+      "locations": [
+        "Chesapeake",
+        "Norfolk",
+        "Hampton"
+      ]
+    },
+    {
+      "id": "7048",
+      "name": "Coffee Beans (Robusta)",
+      "image": "",
+      "description": "1lb bag of dark roast Robusta coffee beans.",
+      "origin": "Colombia",
+      "price": 81.98,
+      "locations": [
+        "Hampton"
+      ]
+    },
+    {
+      "id": "2203",
+      "name": "Cold Brew Maker",
+      "image": "",
+      "description": "Durable glass pitcher with a reusable mesh filter.",
+      "origin": "Vietnam",
+      "price": 2.93,
+      "locations": [
+        "Virginia Beach"
+      ]
+    },
+    {
+      "id": "3915",
+      "name": "Coffee Syrups Set",
+      "image": "",
+      "description": "Three-pack of vanilla, caramel, and hazelnut syrups.",
+      "origin": "Ethiopia",
+      "price": 86.76,
+      "locations": [
+        "Chesapeake"
+      ]
+    },
+    {
+      "id": "5403",
+      "name": "Reusable Filters",
+      "image": "",
+      "description": "Pack of cloth reusable coffee filters.",
+      "origin": "Guatemala",
+      "price": 70.24,
+      "locations": [
+        "Virginia Beach",
+        "Norfolk",
+        "Chesapeake"
+      ]
+    },
+    {
+      "id": "2629",
+      "name": "Gooseneck Kettle",
+      "image": "",
+      "description": "Electric gooseneck kettle with temperature control.",
+      "origin": "Colombia",
+      "price": 6.87,
+      "locations": [
+        "Norfolk",
+        "Virginia Beach",
+        "Chesapeake"
+      ]
+    },
+    {
+      "id": "3144",
+      "name": "Coffee Bean Spoon",
+      "image": "",
+      "description": "Stainless steel measuring scoop with a bag clip.",
+      "origin": "Costa Rica",
+      "price": 9.69,
+      "locations": [
+        "Chesapeake"
+      ]
+    },
+    {
+      "id": "2611",
+      "name": "Stirring Spoons",
+      "image": "",
+      "description": "Set of long-handled stainless steel stirring spoons.",
+      "origin": "Kenya",
+      "price": 2.71,
+      "locations": [
+        "Chesapeake",
+        "Hampton"
+      ]
+    },
+    {
+      "id": "5065",
+      "name": "Coffee Art Stencils",
+      "image": "",
+      "description": "Plastic stencils for latte art decorations.",
+      "origin": "Jamaica",
+      "price": 70.48,
+      "locations": [
+        "Chesapeake",
+        "Hampton"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

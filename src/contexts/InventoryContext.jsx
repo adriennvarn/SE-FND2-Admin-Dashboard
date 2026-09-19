@@ -1,21 +1,42 @@
 import { createContext, useState, useEffect } from "react"
-import { useLocalStorage } from "../hooks/useLocalStorage"
+import { useFetchData, useFetchDataMutation } from "../hooks/useFetchData"
+
+const API_URL = "http://localhost:3000/inventory"
 
 export const InventoryContext = createContext()
 
 export function InventoryProvider({ children }) {
-    const [inventory, updateInventory] = useLocalStorage("inventory", [])
+    const { data } = useFetchData(API_URL)
+    const [inventory, updateInventory] = useState([])
+    const { execute: updateItem } = useFetchDataMutation(API_URL)
 
-    // safely add items
-    function addItem(item) {
+    // load inventory on mount
+    useEffect(() => {
+        if (data) updateInventory(data)
+    }, [data])
+
+    // add items with CRUD
+    async function addItem(item) {
+        // call fetch mutation with post
+        const savedItem = await updateItem({
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(item)
+        })
+        // update inventory state
         updateInventory(prev => {
             const currentArray = Array.isArray(prev) ? prev : []
-            return [...currentArray, item]
+            return [...currentArray, savedItem]
         })
     }
 
-    // safely delete items
-    function deleteItem(itemToDelete) {
+    // delete items with CRUD
+    async function deleteItem(itemToDelete) {
+        // call fetch mutation with delete and dynamic url (pointing to /id)
+        await updateItem({
+            method: "DELETE"
+        }, `${API_URL}/${itemToDelete.id}`)
+        //update inventory state
         updateInventory(prev => {
             const currentArray = Array.isArray(prev) ? prev : []
             return currentArray.filter(item => (
