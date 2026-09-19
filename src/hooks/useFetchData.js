@@ -31,14 +31,14 @@ function useFetchData(url, options = {}) {
 
 // used to execute more specific functions that can be called from within functions in InventoryContext
 function useFetchDataMutation(url) {
-    const [data, setData] = useState(null);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState(null);
+    const [data, setData] = useState(null)
+    const [loading, setLoading] = useState(false)
+    const [error, setError] = useState(null)
 
     // This is the trigger function you call inside event handlers
     const execute = async (options = {}, dynamicUrl = null) => {
-        setLoading(true);
-        setError(null);
+        setLoading(true)
+        setError(null)
         const targetUrl = dynamicUrl || url
 
         return fetch(targetUrl, options)
@@ -58,7 +58,7 @@ function useFetchDataMutation(url) {
             .finally(() => setLoading(false))
     }
 
-    return { execute, data, loading, error };
+    return { execute, data, loading, error }
 }
 
 export { useFetchData, useFetchDataMutation }

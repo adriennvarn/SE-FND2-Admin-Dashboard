@@ -25,7 +25,7 @@ export default function AddItem() {
 
     // update running itemData as values change
     const handleChange = (e) => {
-        const { name, value, type, checked } = e.target
+        const { name, value } = e.target
         setItemData((prevData) => ({
             ...prevData,
             [name]: value

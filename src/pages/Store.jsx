@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react"
+import { useState, useContext } from "react"
 import NavBar from "../components/NavBar"
 import ShopSearch from "../components/ShopSearch"
 import InventoryList from "../components/InventoryList"
