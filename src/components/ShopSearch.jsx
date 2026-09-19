@@ -1,9 +1,11 @@
-export default function ShopSearch() {
+export default function ShopSearch({ setSearch, setFilter }) {
+
+    
     return (
         <div className="search-sidebar">
             <h3>Search</h3>
             <input type="text" id="search" name="search" placeholder="Search for your favorite" />
-            
+
             <h3>Locations</h3>
             <form id="filter">
                 <ul>

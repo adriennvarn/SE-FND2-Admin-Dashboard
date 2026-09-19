@@ -3,6 +3,8 @@ import Landing from "./pages/Landing"
 import Store from "./pages/Store"
 import AdminDashboard from "./pages/AdminDashboard"
 
+export const LOCATIONS = ["Norfolk", "Virginia Beach", "Chesapeake", "Hampton"]
+
 function App() {
     return (
         <BrowserRouter>
@@ -12,7 +14,7 @@ function App() {
                 <Route path="/admin" element={<AdminDashboard />} />
             </Routes>
         </BrowserRouter>
-  )
+    )
 }
 
 export default App

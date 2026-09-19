@@ -9,26 +9,14 @@ export default function Store() {
     const [filter, setFilter] = useState("")
     const { inventory, addItem } = useContext(InventoryContext)
 
-    /////// temporarily populate list with items
-    // useEffect(() => {
-    //     addItem({
-    //         id: crypto.randomUUID(),
-    //         name: "Test Coffee",
-    //         image: "",
-    //         description: "Flavorful 0's and 1's",
-    //         origin: "USA",
-    //         price: 12.00
-    //     })
-    // }, [])
-
     const filteredItems = (inventory || []).filter((item) =>
-        item.name?.toLowerCase().includes(search.toLowerCase())
+        item.name?.toLowerCase().includes(search.toLowerCase()) 
     )
 
     return (
         <>
             <NavBar />
-            <ShopSearch />
+            <ShopSearch setSearch={setSearch} setFilter={setFilter} />
             <InventoryList inventory={filteredItems} />
         </>
     )

@@ -13,6 +13,7 @@ export default function AdminItemList() {
                         <th>Description</th>
                         <th>Orgin</th>
                         <th>Price</th>
+                        <th>Locations Available</th>
                         <th></th>
                     </tr>
                 </thead>
@@ -23,6 +24,7 @@ export default function AdminItemList() {
                             <td>{item.description}</td>
                             <td>{item.origin}</td>
                             <td>{item.price}</td>
+                            <td>{item.locations.join(", ")}</td>
                             <td onClick={() => deleteItem(item)}><strong>DelBtn</strong></td>
                         </tr>
                     ))}
