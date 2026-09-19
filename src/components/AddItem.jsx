@@ -58,7 +58,7 @@ export default function AddItem() {
     return (
         <div>
             <h3>Add Item</h3>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="uk-form">
                 <label htmlFor="name">Name</label>
                 <input type="text" id="name" name="name" value={itemData.name} onChange={handleChange} ref={inputRef}/>
                 <label htmlFor="image">Image</label>
@@ -69,7 +69,7 @@ export default function AddItem() {
                 <input type="text" id="origin" name="origin" value={itemData.origin} onChange={handleChange}/>
                 <label htmlFor="price">Price</label>
                 <input type="number" step="0.01" id="price" name="price" value={itemData.price} onChange={handleChange}/>
-                <ul>
+                <ul className="uk-list">
                     {LOCATIONS.map((loc, i) => (
                         <li key={i}>
                             <label htmlFor={loc}>{loc}</label>

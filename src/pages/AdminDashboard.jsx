@@ -7,8 +7,9 @@ export default function AdminDashboard() {
         <>
             <NavBar />
             <AdminItemList />
-            <hr/>
+            <hr className="uk-margin-large"/>
             <AddItem />
+            <p className="uk-margin-large-bottom"/>
         </>
     )
 }

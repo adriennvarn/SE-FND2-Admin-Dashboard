@@ -7,8 +7,8 @@ export default function AdminItemList() {
     const { inventory, deleteItem } = useContext(InventoryContext)
 
     return (
-        <div className="tg-wrap">
-            <table>
+        <div className="uk-overflow-auto">
+            <table className="uk-table uk-table-small uk-table-divider">
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -27,7 +27,7 @@ export default function AdminItemList() {
                             <td>{item.origin}</td>
                             <td>{item.price}</td>
                             <td>{item.locations.join(", ")}</td>
-                            <td onClick={() => deleteItem(item)}><strong>DelBtn</strong></td>
+                            <td><button onClick={() => deleteItem(item)}>Delete</button></td>
                         </tr>
                     ))}
                 </tbody>
