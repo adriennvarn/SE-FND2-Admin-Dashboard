@@ -1,4 +1,5 @@
 import NavBar from "../components/NavBar"
+import Chatbot from "../components/Chatbot"
 
 export default function Landing() {
     return (
@@ -7,6 +8,7 @@ export default function Landing() {
             <main>
                 <h1>Kaff Kafé</h1>
                 <h3>Coffee with a side of sci-fi</h3>
+                <Chatbot />
             </main>
         </>
     )
