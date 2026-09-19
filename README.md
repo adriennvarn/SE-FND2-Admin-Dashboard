@@ -10,7 +10,9 @@ In a terminal, run `npm run dev` and `npm run server`. Either use two terminals,
 
 ## Notes
 I didn't flesh this out nearly as much as I would for a real website. I did the entire thing today (and a bit yesterday), in roughly 7-8 hours of work. 
-I'm not sure if GitHub will show that I used branches. I only used local ones and didn't push them to GitHub or do PRs. I didn't seen the need, since I'm working alone, and didn't realize it was specified in the rubrik until too late. 
+
+I'm not sure if GitHub will show that I used branches. I only used local ones and didn't push them to GitHub or do PRs. I didn't seen the need, since I'm working alone, and didn't realize it was specified in the rubrik until too late. I'll put this README update on a new branch and do a PR just to demonstrate that I know how.
+
 The store page is fully responsive for mobile. I didn't have time to do so for the other pages, and regardless, it's not part of the rubrik.
 
 Please feel free to DM me on Discord or send a message over Canvas if you have any questions or comments beyond the usual grading comments. 
