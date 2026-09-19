@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { InventoryContext } from "../contexts/InventoryContext"
 
 export default function AdminItemList() {
-    const { inventory } = useContext(InventoryContext)
+    const { inventory, deleteItem } = useContext(InventoryContext)
 
     return (
         <div className="tg-wrap">
@@ -18,12 +18,12 @@ export default function AdminItemList() {
                 </thead>
                 <tbody>
                     {inventory.map(item => (
-                        <tr>
+                        <tr key={item.id}>
                             <td>{item.name}</td>
                             <td>{item.description}</td>
                             <td>{item.origin}</td>
                             <td>{item.price}</td>
-                            <td><strong>DelBtn</strong></td>
+                            <td onClick={() => deleteItem(item)}><strong>DelBtn</strong></td>
                         </tr>
                     ))}
                 </tbody>

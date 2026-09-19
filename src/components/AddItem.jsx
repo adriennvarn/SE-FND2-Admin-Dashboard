@@ -1,8 +1,9 @@
-import { useState, useContext } from "react"
+import { useState, useContext, useRef } from "react"
 import { InventoryContext } from "../contexts/InventoryContext"
 
 export default function AddItem() {
     const { addItem } = useContext(InventoryContext)
+    const inputRef = useRef(null)
 
     const blankItem = {
         name: "",
@@ -32,6 +33,7 @@ export default function AddItem() {
             id: crypto.randomUUID(),
             ...blankItem
         })
+        inputRef.current.focus()
     }
 
     return (
@@ -39,7 +41,7 @@ export default function AddItem() {
             <h3>Add Item</h3>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="name">Name</label>
-                <input type="text" id="name" name="name" value={itemData.name} onChange={handleChange}/>
+                <input type="text" id="name" name="name" value={itemData.name} onChange={handleChange} ref={inputRef}/>
                 <label htmlFor="image">Image</label>
                 <input type="text" id="image" name="image" value={itemData.image} onChange={handleChange}/>
                 <label htmlFor="description">Description</label>
