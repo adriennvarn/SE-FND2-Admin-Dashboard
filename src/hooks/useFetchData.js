@@ -41,7 +41,7 @@ function useFetchDataMutation(url) {
         setError(null);
         const targetUrl = dynamicUrl || url
 
-        fetch(targetUrl, options)
+        return fetch(targetUrl, options)
             .then(r => {
                 if (!r.ok) throw new Error("fetch failed:", r.status)
                 return r.status === 204 ? null : r.json()

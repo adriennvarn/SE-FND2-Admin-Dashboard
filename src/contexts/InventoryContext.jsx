@@ -25,6 +25,10 @@ export function InventoryProvider({ children }) {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(item)
         })
+        if (!savedItem) {
+            console.error("Failed to add item: server did not return saved data")
+            return
+        }
         // update inventory state
         updateInventory(prev => {
             const currentArray = Array.isArray(prev) ? prev : []

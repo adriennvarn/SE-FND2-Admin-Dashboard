@@ -20,16 +20,19 @@ export default function AdminItemList() {
                     </tr>
                 </thead>
                 <tbody>
-                    {inventory.map(item => (
-                        <tr key={item.id}>
-                            <td>{item.name}</td>
-                            <td>{item.description}</td>
-                            <td>{item.origin}</td>
-                            <td>{item.price}</td>
-                            <td>{item.locations.join(", ")}</td>
-                            <td><button onClick={() => deleteItem(item)}>Delete</button></td>
-                        </tr>
-                    ))}
+                    {inventory.map(item => {
+                        if (!item) return null
+                        return (
+                            <tr key={item.id}>
+                                <td>{item.name}</td>
+                                <td>{item.description}</td>
+                                <td>{item.origin}</td>
+                                <td>{item.price}</td>
+                                <td>{item.locations.join(", ")}</td>
+                                <td><button onClick={() => deleteItem(item)}>Delete</button></td>
+                            </tr>
+                        )
+                    })}
                 </tbody>
             </table>
         </div>

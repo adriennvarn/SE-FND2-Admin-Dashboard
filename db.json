@@ -1,192 +1,121 @@
 {
   "inventory": [
     {
-      "id": "4821",
-      "name": "Midnight Velvet Dark Roast",
-      "image": "src/assets/coffeebeans4.jpg",
-      "description": "Bold and smoky with deep notes of dark cocoa and molasses.",
-      "origin": "Sumatra",
-      "price": 14.99,
-      "locations": [
-        "Norfolk",
-        "Chesapeake"
-      ]
-    },
-    {
-      "id": "7109",
-      "name": "Highland Sunrise Light Roast",
-      "image": "src/assets/coffeebeans1.jpg",
-      "description": "Bright and crisp featuring vibrant citrus acidity and floral undertones.",
-      "origin": "Ethiopia",
-      "price": 18.5,
-      "locations": [
-        "Virginia Beach"
-      ]
-    },
-    {
-      "id": "1354",
-      "name": "Andean Amber Medium Roast",
-      "image": "src/assets/coffeebeans3.jpg",
-      "description": "Perfectly balanced with smooth caramel sweetness and a nutty finish.",
-      "origin": "Colombia",
-      "price": 16.25,
-      "locations": [
-        "Hampton",
-        "Norfolk",
-        "Virginia Beach"
-      ]
-    },
-    {
-      "id": "8943",
-      "name": "Volcanic Espresso Roast",
+      "id": "b31AWNLl04S",
+      "name": "Arabica Supreme",
       "image": "src/assets/coffeebeans5.jpg",
-      "description": "Intense and full-bodied, optimized for a rich crema and dark chocolate notes.",
-      "origin": "Guatemala",
-      "price": 22,
-      "locations": [
-        "Chesapeake",
-        "Hampton"
-      ]
-    },
-    {
-      "id": "3122",
-      "name": "Bourbon Santos Medium-Light",
-      "image": "src/assets/coffeebeans2.jpg",
-      "description": "Mild and smooth with a pleasant low acidity and subtle hints of almond.",
+      "description": "Smooth and balanced with notes of sweet chocolate and subtle citrus fruit.",
       "origin": "Brazil",
-      "price": 13.45,
-      "locations": [
-        "Norfolk"
-      ]
-    },
-    {
-      "id": "6578",
-      "name": "Monsooned Malabar Dark",
-      "image": "src/assets/coffeebeans4.jpg",
-      "description": "Heavy-bodied and earthy with unique spicy profiles and a clean finish.",
-      "origin": "India",
-      "price": 19.95,
-      "locations": [
-        "Virginia Beach",
-        "Chesapeake"
-      ]
-    },
-    {
-      "id": "2410",
-      "name": "Antigua Gold Medium Roast",
-      "image": "src/assets/coffeebeans3.jpg",
-      "description": "Complex cup offering spicy, smoky aromas intertwined with sweet cocoa.",
-      "origin": "Guatemala",
-      "price": 17.8,
-      "locations": [
-        "Hampton"
-      ]
-    },
-    {
-      "id": "5591",
-      "name": "Blue Mountain Reserve",
-      "image": "src/assets/coffeebeans1.jpg",
-      "description": "Exquisite, refined sweetness with a silky mouthfeel and zero bitterness.",
-      "origin": "Jamaica",
-      "price": 89.5,
+      "price": 98.65,
       "locations": [
         "Norfolk",
-        "Virginia Beach",
-        "Hampton"
-      ]
-    },
-    {
-      "id": "4329",
-      "name": "Kilimanjaro Peaberry Light",
-      "image": "src/assets/coffeebeans2.jpg",
-      "description": "Rare peaberry beans yielding a concentrated punch of blackcurrant and tea-like notes.",
-      "origin": "Tanzania",
-      "price": 24.15,
-      "locations": [
         "Chesapeake"
       ]
     },
     {
-      "id": "9044",
-      "name": "Java Estate Dark Roast",
-      "image": "src/assets/coffeebeans4.jpg",
-      "description": "Rustic, heavy, and deeply satisfying with a syrupy, herbaceous finish.",
-      "origin": "Indonesia",
-      "price": 15.3,
+      "id": "DmeJGwAlp2N",
+      "name": "Robusta Gold",
+      "image": "src/assets/coffeebeans1.jpg",
+      "description": "Bold, full-bodied roast featuring a rich crema and strong, earthy flavor profiles.",
+      "origin": "Vietnam",
+      "price": 90.08,
       "locations": [
+        "Chesapeake",
         "Hampton",
         "Norfolk"
       ]
     },
     {
-      "id": "1182",
-      "name": "Tarrazú Honey Process Medium",
-      "image": "src/assets/coffeebeans3.jpg",
-      "description": "Creamy body with honey-like sweetness and a delicate stone fruit acidity.",
-      "origin": "Costa Rica",
-      "price": 18.9,
-      "locations": [
-        "Virginia Beach",
-        "Chesapeake"
-      ]
-    },
-    {
-      "id": "7763",
-      "name": "Yirgacheffe Blossom Light",
-      "image": "src/assets/coffeebeans1.jpg",
-      "description": "Aromatic and clean, bursting with notes of jasmine, lemon zest, and honey.",
+      "id": "kdiQmH0qoeN",
+      "name": "Ethiopian Yirgacheffe",
+      "image": "src/assets/coffeebeans4.jpg",
+      "description": "Exotic floral aroma paired with complex bright fruity notes and a clean finish.",
       "origin": "Ethiopia",
-      "price": 21,
-      "locations": [
-        "Norfolk",
-        "Hampton"
-      ]
-    },
-    {
-      "id": "3345",
-      "name": "Mayan Honey Dark Roast",
-      "image": "src/assets/coffeebeans5.jpg",
-      "description": "Deep French roast style bringing out rich caramelization and a toasted nut profile.",
-      "origin": "Honduras",
-      "price": 14.2,
-      "locations": [
-        "Chesapeake",
-        "Virginia Beach",
-        "Hampton"
-      ]
-    },
-    {
-      "id": "6128",
-      "name": "Sidamo Sunset Medium",
-      "image": "src/assets/coffeebeans3.jpg",
-      "description": "Rich berry notes balanced perfectly with a velvety, wine-like finish.",
-      "origin": "Ethiopia",
-      "price": 16.75,
-      "locations": [
-        "Norfolk"
-      ]
-    },
-    {
-      "id": "8294",
-      "name": "Sarchimor Estate Light Roast",
-      "image": "src/assets/coffeebeans2.jpg",
-      "description": "Crisp green apple brightness paired with a smooth brown sugar sweetness.",
-      "origin": "Nicaragua",
-      "price": 17.5,
+      "price": 54.54,
       "locations": [
         "Virginia Beach"
       ]
     },
     {
-      "id": "2049",
-      "name": "Kona Prime Dark Roast",
+      "id": "vQlb7v8SraJ",
+      "name": "Colombian Supremo",
       "image": "src/assets/coffeebeans5.jpg",
-      "description": "Luxuriously rich and buttery with hints of roasted macadamia and brown spice.",
-      "origin": "United States (Hawaii)",
-      "price": 75,
+      "description": "Classic sweet flavor accompanied by a mild, pleasant acidity and nutty undertones.",
+      "origin": "Colombia",
+      "price": 28.12,
       "locations": [
-        "Chesapeake",
+        "Hampton"
+      ]
+    },
+    {
+      "id": "fjUwmjb_2QC",
+      "name": "Sumatran Mandheling",
+      "image": "src/assets/coffeebeans5.jpg",
+      "description": "Deeply rich, heavy-bodied bean showcasing a complex spicy and herbaceous finish.",
+      "origin": "Indonesia",
+      "price": 11.03,
+      "locations": [
+        "Virginia Beach"
+      ]
+    },
+    {
+      "id": "9EkbN6THVqW",
+      "name": "Kona Blend",
+      "image": "src/assets/coffeebeans3.jpg",
+      "description": "Smooth, rich premium blend with a subtle hint of fruit and sweet brown sugar.",
+      "origin": "Hawaii, USA",
+      "price": 2.75,
+      "locations": [
         "Norfolk"
+      ]
+    },
+    {
+      "id": "0Ysrlcqzkii",
+      "name": "Guatemalan Antigua",
+      "image": "src/assets/coffeebeans3.jpg",
+      "description": "Medium body characterized by a unique smoky accent and spicy floral overtones.",
+      "origin": "Guatemala",
+      "price": 23.97,
+      "locations": [
+        "Virginia Beach",
+        "Norfolk"
+      ]
+    },
+    {
+      "id": "UzFeQnuh8F3",
+      "name": "Kenya AA",
+      "image": "src/assets/coffeebeans5.jpg",
+      "description": "Distinct bright crispness offering deep layers of black currant and winery tones.",
+      "origin": "Kenya",
+      "price": 76.44,
+      "locations": [
+        "Norfolk",
+        "Chesapeake",
+        "Virginia Beach"
+      ]
+    },
+    {
+      "id": "EnDEhIH9qlo",
+      "name": "Costa Rican Tarrazu",
+      "image": "src/assets/coffeebeans5.jpg",
+      "description": "Crisp and cleanly vibrant brew boasting a sweet chocolate-accented profile.",
+      "origin": "Costa Rica",
+      "price": 33.82,
+      "locations": [
+        "Norfolk",
+        "Virginia Beach",
+        "Chesapeake"
+      ]
+    },
+    {
+      "id": "rJGGfPxgatb",
+      "name": "Sulawesi Toraja",
+      "image": "src/assets/coffeebeans1.jpg",
+      "description": "Smooth and earthy rustic bean presenting a low acidity and rich, spicy bite.",
+      "origin": "Sulawesi",
+      "price": 42.38,
+      "locations": [
+        "Virginia Beach"
       ]
     }
   ],

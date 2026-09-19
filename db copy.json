@@ -1,0 +1,123 @@
+{
+    "inventory": [
+        {
+            "id": "b31AWNLl04S",
+            "name": "Arabica Supreme",
+            "image": "src/assets/coffeebeans5.jpg",
+            "description": "Smooth and balanced with notes of sweet chocolate and subtle citrus fruit.",
+            "origin": "Brazil",
+            "price": 98.65,
+            "locations": [
+                "Norfolk",
+                "Chesapeake"
+            ]
+        },
+        {
+            "id": "DmeJGwAlp2N",
+            "name": "Robusta Gold",
+            "image": "src/assets/coffeebeans1.jpg",
+            "description": "Bold, full-bodied roast featuring a rich crema and strong, earthy flavor profiles.",
+            "origin": "Vietnam",
+            "price": 90.08,
+            "locations": [
+                "Chesapeake",
+                "Hampton",
+                "Norfolk"
+            ]
+        },
+        {
+            "id": "kdiQmH0qoeN",
+            "name": "Ethiopian Yirgacheffe",
+            "image": "src/assets/coffeebeans4.jpg",
+            "description": "Exotic floral aroma paired with complex bright fruity notes and a clean finish.",
+            "origin": "Ethiopia",
+            "price": 54.54,
+            "locations": [
+                "Virginia Beach"
+            ]
+        },
+        {
+            "id": "vQlb7v8SraJ",
+            "name": "Colombian Supremo",
+            "image": "src/assets/coffeebeans5.jpg",
+            "description": "Classic sweet flavor accompanied by a mild, pleasant acidity and nutty undertones.",
+            "origin": "Colombia",
+            "price": 28.12,
+            "locations": [
+                "Hampton"
+            ]
+        },
+        {
+            "id": "fjUwmjb_2QC",
+            "name": "Sumatran Mandheling",
+            "image": "src/assets/coffeebeans5.jpg",
+            "description": "Deeply rich, heavy-bodied bean showcasing a complex spicy and herbaceous finish.",
+            "origin": "Indonesia",
+            "price": 11.03,
+            "locations": [
+                "Virginia Beach"
+            ]
+        },
+        {
+            "id": "9EkbN6THVqW",
+            "name": "Kona Blend",
+            "image": "src/assets/coffeebeans3.jpg",
+            "description": "Smooth, rich premium blend with a subtle hint of fruit and sweet brown sugar.",
+            "origin": "Hawaii, USA",
+            "price": 2.75,
+            "locations": [
+                "Norfolk"
+            ]
+        },
+        {
+            "id": "0Ysrlcqzkii",
+            "name": "Guatemalan Antigua",
+            "image": "src/assets/coffeebeans3.jpg",
+            "description": "Medium body characterized by a unique smoky accent and spicy floral overtones.",
+            "origin": "Guatemala",
+            "price": 23.97,
+            "locations": [
+                "Virginia Beach",
+                "Norfolk"
+            ]
+        },
+        {
+            "id": "UzFeQnuh8F3",
+            "name": "Kenya AA",
+            "image": "src/assets/coffeebeans5.jpg",
+            "description": "Distinct bright crispness offering deep layers of black currant and winery tones.",
+            "origin": "Kenya",
+            "price": 76.44,
+            "locations": [
+                "Norfolk",
+                "Chesapeake",
+                "Virginia Beach"
+            ]
+        },
+        {
+            "id": "EnDEhIH9qlo",
+            "name": "Costa Rican Tarrazu",
+            "image": "src/assets/coffeebeans5.jpg",
+            "description": "Crisp and cleanly vibrant brew boasting a sweet chocolate-accented profile.",
+            "origin": "Costa Rica",
+            "price": 33.82,
+            "locations": [
+                "Norfolk",
+                "Virginia Beach",
+                "Chesapeake"
+            ]
+        },
+        {
+            "id": "rJGGfPxgatb",
+            "name": "Sulawesi Toraja",
+            "image": "src/assets/coffeebeans1.jpg",
+            "description": "Smooth and earthy rustic bean presenting a low acidity and rich, spicy bite.",
+            "origin": "Sulawesi",
+            "price": 42.38,
+            "locations": [
+                "Virginia Beach"
+            ]
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+}
