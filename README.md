@@ -8,6 +8,8 @@ Clone the repo and run `npm install --force`. The force flag is necessary becaus
 
 In a terminal, run `npm run dev` and `npm run server`. Either use two terminals, or a windowing tool like screen or tmux. 
 
+The AI tool sometimes takes a while to respond. Please be patient!
+
 ## Notes
 I didn't flesh this out nearly as much as I would for a real website. I did the entire thing today (and a bit yesterday), in roughly 7-8 hours of work. 
 
