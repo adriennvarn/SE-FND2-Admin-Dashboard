@@ -1,6 +1,8 @@
 import { useContext } from "react"
 import { InventoryContext } from "../contexts/InventoryContext"
 
+// displays the item list in a plain table for admin use
+// includes a delete button to remove items
 export default function AdminItemList() {
     const { inventory, deleteItem } = useContext(InventoryContext)
 

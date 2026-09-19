@@ -4,8 +4,10 @@ import { LOCATIONS } from "../App"
 
 export default function AddItem() {
     const { addItem } = useContext(InventoryContext)
+    // ref to focus back to name on submit
     const inputRef = useRef(null)
 
+    // template item
     const blankItem = {
         name: "",
         image: "",
@@ -20,6 +22,7 @@ export default function AddItem() {
         ...blankItem
     })
 
+    // update running itemData as values change
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target
         setItemData((prevData) => ({
@@ -28,6 +31,7 @@ export default function AddItem() {
         }))
     }
 
+    // update itemData.locations array based on if an item is being checked or unchecked
     const handleCheckbox = (e) => {
         const { name, checked } = e.target
         setItemData((prev) => prev.locations.includes(name) && !checked ? {
@@ -39,6 +43,7 @@ export default function AddItem() {
         })
     }
 
+    // submit to context addItem function, reset form to blank state, focus on name input
     const handleSubmit = (e) => {
         e.preventDefault()
         addItem(itemData)

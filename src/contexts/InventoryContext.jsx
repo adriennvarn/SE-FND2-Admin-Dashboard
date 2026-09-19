@@ -6,8 +6,10 @@ const API_URL = "http://localhost:3000/inventory"
 export const InventoryContext = createContext()
 
 export function InventoryProvider({ children }) {
-    const { data } = useFetchData(API_URL)
+    // primary state
     const [inventory, updateInventory] = useState([])
+    // basic fetch for GET and mutated fetch for everything else
+    const { data } = useFetchData(API_URL)
     const { execute: updateItem } = useFetchDataMutation(API_URL)
 
     // load inventory on mount

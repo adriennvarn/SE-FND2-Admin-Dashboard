@@ -1,6 +1,7 @@
 import { LOCATIONS } from "../App"
 
 export default function ShopSearch({ search, setSearch, locationFilter, setLocationFilter }) {
+    // set location filter based on what boxes are checked
     const handleCheckbox = (e) => {
         const { name, checked } = e.target
         setLocationFilter(prev => prev.includes(name) && !checked ?
